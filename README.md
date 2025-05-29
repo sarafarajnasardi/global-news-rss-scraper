@@ -162,10 +162,3 @@ python scheduler.py
   "scraped_at": "2025-05-28T10:00:00"
 }
 ```
-
----
-
-## ❤️ Credits
-
-Created by Global News RSS Scraper Team – 2025  
-Built with Python, Flask, SQLite, and global open data
