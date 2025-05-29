@@ -162,3 +162,23 @@ python scheduler.py
   "scraped_at": "2025-05-28T10:00:00"
 }
 ```
+
+---
+
+## 🧠 Bonus / Advanced Features
+
+The following advanced features were implemented as part of this project:
+
+- ✅ **SQLite Database Integration**: All scraped articles are stored in a structured SQLite database (`news_data.db`), enabling fast queries and long-term persistence.
+- ✅ **RESTful Flask API**: A fully featured Flask-based API is provided to query and serve data through endpoints including:
+  - `GET /api/articles`: Retrieve articles with filters for country, source, date, language, and keyword search.
+  - `GET /api/articles/<id>`: Get a single article by ID.
+  - `GET /api/search?q=...`: Full-text search in article titles and summaries.
+  - `GET /api/statistics`: Summary stats on countries, languages, and article counts.
+  - `GET /api/countries`: List all countries represented in the data.
+  - `GET /api/sources`: List all news sources.
+- ✅ **Search & Ranking**: Articles can be searched and ranked by relevance.
+- ✅ **Auto-Creation of Database Schema**: Ensures the schema exists if running for the first time.
+- ✅ **Filter & Pagination Support**: Full support for `limit`, `offset`, and custom sorting in API results.
+
+---
