@@ -1,0 +1,178 @@
+2025-05-28 19:41:02,857 - INFO - Database initialized successfully
+2025-05-28 19:41:02,857 - INFO - Starting to scrape all countries...
+2025-05-28 19:41:02,857 - INFO - Starting to scrape 4 feeds for United Kingdom
+2025-05-28 19:41:02,857 - INFO - Fetching RSS feed: http://feeds.bbci.co.uk/news/rss.xml
+2025-05-28 19:41:02,857 - INFO - Starting to scrape 4 feeds for United States
+2025-05-28 19:41:02,857 - INFO - Starting to scrape 2 feeds for Canada
+2025-05-28 19:41:02,857 - INFO - Fetching RSS feed: http://rss.cnn.com/rss/edition.rss
+2025-05-28 19:41:02,857 - INFO - Fetching RSS feed: https://www.cbc.ca/cmlink/rss-topstories
+2025-05-28 19:41:07,599 - INFO - Extracted 33 articles from BBC News
+2025-05-28 19:41:07,599 - INFO - Fetching RSS feed: https://www.theguardian.com/world/rss
+2025-05-28 19:41:08,082 - INFO - Extracted 20 articles from CBC News
+2025-05-28 19:41:08,086 - INFO - Fetching RSS feed: https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009
+2025-05-28 19:41:08,330 - INFO - Extracted 50 articles from CNN
+2025-05-28 19:41:08,330 - INFO - Fetching RSS feed: https://feeds.reuters.com/reuters/domesticNews
+2025-05-28 19:41:09,201 - INFO - Extracted 45 articles from The Guardian
+2025-05-28 19:41:09,201 - INFO - Fetching RSS feed: https://feeds.reuters.com/reuters/UKdomesticNews
+2025-05-28 19:41:12,076 - ERROR - Network error fetching https://feeds.reuters.com/reuters/domesticNews: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/domesticNews (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002291BB9FEC0>: Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 19:41:12,076 - ERROR - Network error fetching https://feeds.reuters.com/reuters/UKdomesticNews: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/UKdomesticNews (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002291BB9FBC0>: Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 19:41:12,077 - INFO - Fetching RSS feed: https://feeds.apnews.com/rss/apf-topnews
+2025-05-28 19:41:12,077 - INFO - Fetching RSS feed: https://feeds.skynews.com/feeds/rss/home.xml
+2025-05-28 19:41:12,952 - ERROR - Network error fetching https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009: 404 Client Error: Not Found for url: https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009
+2025-05-28 19:41:12,952 - INFO - Total articles scraped for Canada: 20
+2025-05-28 19:41:12,953 - INFO - Starting to scrape 2 feeds for Australia
+2025-05-28 19:41:12,953 - INFO - Completed scraping for Canada: 20 articles
+2025-05-28 19:41:12,953 - INFO - Fetching RSS feed: https://www.abc.net.au/news/feed/1534/rss.xml
+2025-05-28 19:41:13,170 - ERROR - Network error fetching https://feeds.apnews.com/rss/apf-topnews: HTTPSConnectionPool(host='feeds.apnews.com', port=443): Max retries exceeded with url: /rss/apf-topnews (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022919DFB980>: Failed to resolve 'feeds.apnews.com' ([Errno 11001] getaddrinfo failed)"))
+2025-05-28 19:41:13,171 - INFO - Fetching RSS feed: https://feeds.npr.org/1001/rss.xml
+2025-05-28 19:41:13,853 - INFO - Extracted 10 articles from Sky News
+2025-05-28 19:41:13,854 - INFO - Total articles scraped for United Kingdom: 88
+2025-05-28 19:41:13,854 - INFO - Starting to scrape 2 feeds for Japan
+2025-05-28 19:41:13,854 - INFO - Completed scraping for United Kingdom: 88 articles
+2025-05-28 19:41:13,854 - INFO - Fetching RSS feed: https://www3.nhk.or.jp/rss/news/cat0.xml
+2025-05-28 19:41:14,700 - INFO - Extracted 10 articles from NPR
+2025-05-28 19:41:14,708 - INFO - Total articles scraped for United States: 60
+2025-05-28 19:41:14,708 - INFO - Starting to scrape 2 feeds for China
+2025-05-28 19:41:14,708 - INFO - Completed scraping for United States: 60 articles
+2025-05-28 19:41:14,708 - INFO - Fetching RSS feed: http://www.chinadaily.com.cn/rss/china_rss.xml
+2025-05-28 19:41:15,080 - INFO - Extracted 25 articles from ABC News Australia
+2025-05-28 19:41:15,080 - INFO - Fetching RSS feed: https://www.theaustralian.com.au/rss/
+2025-05-28 19:41:16,497 - INFO - Extracted 7 articles from NHK World
+2025-05-28 19:41:16,497 - INFO - Fetching RSS feed: https://www.japantimes.co.jp/news/feed/
+2025-05-28 19:41:16,774 - ERROR - Network error fetching https://www.theaustralian.com.au/rss/: 403 Client Error: Forbidden for url: https://www.theaustralian.com.au/rss/
+2025-05-28 19:41:16,774 - INFO - Total articles scraped for Australia: 25
+2025-05-28 19:41:16,774 - INFO - Starting to scrape 3 feeds for India
+2025-05-28 19:41:16,774 - INFO - Completed scraping for Australia: 25 articles
+2025-05-28 19:41:16,774 - INFO - Fetching RSS feed: https://timesofindia.indiatimes.com/rssfeedstopstories.cms
+2025-05-28 19:41:17,715 - INFO - Extracted 41 articles from China Daily
+2025-05-28 19:41:17,715 - INFO - Fetching RSS feed: https://www.globaltimes.cn/rss/outbrain.xml
+2025-05-28 19:41:18,577 - INFO - Extracted 46 articles from Times of India
+2025-05-28 19:41:18,578 - INFO - Fetching RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-05-28 19:41:18,767 - INFO - Extracted 60 articles from Japan Times
+2025-05-28 19:41:18,768 - INFO - Total articles scraped for Japan: 67
+2025-05-28 19:41:18,769 - INFO - Starting to scrape 2 feeds for South Korea
+2025-05-28 19:41:18,769 - INFO - Completed scraping for Japan: 67 articles
+2025-05-28 19:41:18,769 - INFO - Fetching RSS feed: http://www.koreaherald.com/rss/020000000000.xml
+2025-05-28 19:41:20,327 - INFO - Extracted 100 articles from The Hindu
+2025-05-28 19:41:20,345 - INFO - Fetching RSS feed: https://feeds.feedburner.com/ndtvnews-top-stories
+2025-05-28 19:41:20,509 - INFO - Extracted 50 articles from Global Times
+2025-05-28 19:41:20,509 - INFO - Total articles scraped for China: 91
+2025-05-28 19:41:20,510 - INFO - Starting to scrape 2 feeds for Singapore
+2025-05-28 19:41:20,510 - INFO - Completed scraping for China: 91 articles
+2025-05-28 19:41:20,510 - INFO - Fetching RSS feed: https://www.straitstimes.com/news/singapore/rss.xml
+2025-05-28 19:41:21,803 - WARNING - No entries found in feed from Korea Herald
+2025-05-28 19:41:21,805 - INFO - Fetching RSS feed: https://en.yna.co.kr/RSS/news.xml
+2025-05-28 19:41:22,482 - INFO - Extracted 63 articles from Straits Times
+2025-05-28 19:41:22,483 - INFO - Fetching RSS feed: https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml
+2025-05-28 19:41:22,555 - INFO - Extracted 20 articles from NDTV
+2025-05-28 19:41:22,555 - INFO - Total articles scraped for India: 166
+2025-05-28 19:41:22,555 - INFO - Starting to scrape 2 feeds for Malaysia
+2025-05-28 19:41:22,555 - INFO - Completed scraping for India: 166 articles
+2025-05-28 19:41:22,555 - INFO - Fetching RSS feed: https://www.thestar.com.my/news/nation.rss
+2025-05-28 19:41:24,190 - INFO - Extracted 20 articles from Channel NewsAsia
+2025-05-28 19:41:24,190 - INFO - Total articles scraped for Singapore: 83
+2025-05-28 19:41:24,191 - INFO - Starting to scrape 2 feeds for Indonesia
+2025-05-28 19:41:24,191 - INFO - Completed scraping for Singapore: 83 articles
+2025-05-28 19:41:24,191 - INFO - Fetching RSS feed: https://www.thejakartapost.com/rss
+2025-05-28 19:41:24,205 - ERROR - Network error fetching https://www.thestar.com.my/news/nation.rss: 404 Client Error: Not Found for url: https://www.thestar.com.my/news/nation.rss
+2025-05-28 19:41:24,205 - INFO - Fetching RSS feed: https://www.nst.com.my/news/nation/rss
+2025-05-28 19:41:25,285 - INFO - Extracted 97 articles from Yonhap News
+2025-05-28 19:41:25,286 - INFO - Total articles scraped for South Korea: 97
+2025-05-28 19:41:25,287 - INFO - Starting to scrape 2 feeds for Middle East
+2025-05-28 19:41:25,287 - INFO - Completed scraping for South Korea: 97 articles
+2025-05-28 19:41:25,287 - INFO - Fetching RSS feed: https://www.aljazeera.com/xml/rss/all.xml
+2025-05-28 19:41:26,016 - ERROR - Network error fetching https://www.thejakartapost.com/rss: 404 Client Error: Not Found for url: https://www.thejakartapost.com/rss
+2025-05-28 19:41:26,018 - INFO - Fetching RSS feed: https://en.antaranews.com/rss/terkini.xml
+2025-05-28 19:41:26,885 - INFO - Extracted 25 articles from Al Jazeera
+2025-05-28 19:41:26,886 - INFO - Fetching RSS feed: https://english.alarabiya.net/rss.xml
+2025-05-28 19:41:27,400 - ERROR - Network error fetching https://www.nst.com.my/news/nation/rss: 404 Client Error: Not Found for url: https://www.nst.com.my/news/nation/rss
+2025-05-28 19:41:27,401 - INFO - Total articles scraped for Malaysia: 0
+2025-05-28 19:41:27,401 - INFO - Starting to scrape 2 feeds for Israel
+2025-05-28 19:41:27,401 - INFO - Completed scraping for Malaysia: 0 articles
+2025-05-28 19:41:27,401 - INFO - Fetching RSS feed: https://www.haaretz.com/cmlink/1.628752
+2025-05-28 19:41:27,900 - ERROR - Network error fetching https://en.antaranews.com/rss/terkini.xml: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-05-28 19:41:27,902 - INFO - Total articles scraped for Indonesia: 0
+2025-05-28 19:41:27,902 - INFO - Starting to scrape 2 feeds for South Africa
+2025-05-28 19:41:27,902 - INFO - Completed scraping for Indonesia: 0 articles
+2025-05-28 19:41:27,902 - INFO - Fetching RSS feed: https://feeds.news24.com/articles/news24/TopStories/rss
+2025-05-28 19:41:29,294 - ERROR - Network error fetching https://english.alarabiya.net/rss.xml: 403 Client Error: Forbidden for url: https://english.alarabiya.net/rss.xml
+2025-05-28 19:41:29,295 - INFO - Total articles scraped for Middle East: 25
+2025-05-28 19:41:29,295 - INFO - Starting to scrape 2 feeds for Germany
+2025-05-28 19:41:29,295 - INFO - Completed scraping for Middle East: 25 articles
+2025-05-28 19:41:29,295 - INFO - Fetching RSS feed: https://rss.dw.com/rdf/rss-en-all
+2025-05-28 19:41:30,709 - WARNING - Feed parsing issues for https://www.haaretz.com/cmlink/1.628752: <unknown>:11:38: not well-formed (invalid token)
+2025-05-28 19:41:30,710 - WARNING - No entries found in feed from Haaretz
+2025-05-28 19:41:30,710 - INFO - Fetching RSS feed: https://www.jpost.com/rss/rssfeedsheadlines.aspx
+2025-05-28 19:41:32,193 - INFO - Extracted 150 articles from Deutsche Welle
+2025-05-28 19:41:32,213 - INFO - Fetching RSS feed: https://www.thelocal.de/feed/
+2025-05-28 19:41:32,251 - INFO - Extracted 20 articles from News24
+2025-05-28 19:41:32,251 - INFO - Fetching RSS feed: https://www.iol.co.za/cmlink/1.730626
+2025-05-28 19:41:32,520 - INFO - Extracted 30 articles from Jerusalem Post
+2025-05-28 19:41:32,521 - INFO - Total articles scraped for Israel: 30
+2025-05-28 19:41:32,521 - INFO - Starting to scrape 2 feeds for France
+2025-05-28 19:41:32,521 - INFO - Completed scraping for Israel: 30 articles
+2025-05-28 19:41:32,521 - INFO - Fetching RSS feed: https://www.france24.com/en/rss
+2025-05-28 19:41:33,859 - ERROR - Network error fetching https://www.iol.co.za/cmlink/1.730626: 403 Client Error: Forbidden for url: https://www.iol.co.za/cmlink/1.730626
+2025-05-28 19:41:33,860 - INFO - Total articles scraped for South Africa: 20
+2025-05-28 19:41:33,860 - INFO - Starting to scrape 2 feeds for Italy
+2025-05-28 19:41:33,861 - INFO - Completed scraping for South Africa: 20 articles
+2025-05-28 19:41:33,861 - INFO - Fetching RSS feed: https://www.ansa.it/english/news/rss.xml
+2025-05-28 19:41:34,128 - INFO - Extracted 24 articles from France 24
+2025-05-28 19:41:34,128 - INFO - Fetching RSS feed: https://www.thelocal.fr/feed/
+2025-05-28 19:41:34,968 - ERROR - Network error fetching https://www.thelocal.de/feed/: 404 Client Error: Not Found for url: https://www.thelocal.de/feed/
+2025-05-28 19:41:34,968 - INFO - Total articles scraped for Germany: 150
+2025-05-28 19:41:34,968 - INFO - Starting to scrape 2 feeds for Spain
+2025-05-28 19:41:34,968 - INFO - Completed scraping for Germany: 150 articles
+2025-05-28 19:41:34,968 - INFO - Fetching RSS feed: https://feeds.elpais.com/mrss-s/pages/ep/site/english.elpais.com/portada
+2025-05-28 19:41:35,934 - ERROR - Network error fetching https://www.ansa.it/english/news/rss.xml: 404 Client Error: Not Found for url: https://www.ansa.it/english/news/rss.xml
+2025-05-28 19:41:35,934 - INFO - Fetching RSS feed: https://www.thelocal.it/feed/
+2025-05-28 19:41:36,819 - ERROR - Network error fetching https://www.thelocal.fr/feed/: 404 Client Error: Not Found for url: https://www.thelocal.fr/feed/
+2025-05-28 19:41:36,821 - INFO - Total articles scraped for France: 24
+2025-05-28 19:41:36,821 - INFO - Starting to scrape 2 feeds for Netherlands
+2025-05-28 19:41:36,821 - INFO - Completed scraping for France: 24 articles
+2025-05-28 19:41:36,821 - INFO - Fetching RSS feed: https://www.dutchnews.nl/feed/
+2025-05-28 19:41:37,597 - INFO - Extracted 59 articles from El País English
+2025-05-28 19:41:37,597 - INFO - Fetching RSS feed: https://www.thelocal.es/feed/
+2025-05-28 19:41:38,691 - ERROR - Network error fetching https://www.thelocal.it/feed/: 404 Client Error: Not Found for url: https://www.thelocal.it/feed/
+2025-05-28 19:41:38,691 - INFO - Total articles scraped for Italy: 0
+2025-05-28 19:41:38,691 - INFO - Starting to scrape 2 feeds for Russia
+2025-05-28 19:41:38,691 - INFO - Completed scraping for Italy: 0 articles
+2025-05-28 19:41:38,691 - INFO - Fetching RSS feed: https://www.rt.com/rss/
+2025-05-28 19:41:39,379 - INFO - Extracted 10 articles from DutchNews.nl
+2025-05-28 19:41:39,380 - INFO - Fetching RSS feed: https://nltimes.nl/rss.xml
+2025-05-28 19:41:40,409 - ERROR - Network error fetching https://www.thelocal.es/feed/: 404 Client Error: Not Found for url: https://www.thelocal.es/feed/
+2025-05-28 19:41:40,410 - INFO - Total articles scraped for Spain: 59
+2025-05-28 19:41:40,410 - INFO - Starting to scrape 2 feeds for Brazil
+2025-05-28 19:41:40,411 - INFO - Completed scraping for Spain: 59 articles
+2025-05-28 19:41:40,411 - INFO - Fetching RSS feed: https://rss.cnn.com/rss/edition_americas.rss
+2025-05-28 19:41:41,606 - ERROR - Network error fetching https://rss.cnn.com/rss/edition_americas.rss: HTTPSConnectionPool(host='rss.cnn.com', port=443): Max retries exceeded with url: /rss/edition_americas.rss (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2025-05-28 19:41:41,606 - INFO - Fetching RSS feed: https://riotimesonline.com/feed/
+2025-05-28 19:41:41,727 - WARNING - No entries found in feed from NL Times
+2025-05-28 19:41:41,727 - INFO - Total articles scraped for Netherlands: 10
+2025-05-28 19:41:41,727 - INFO - Starting to scrape 2 feeds for Mexico
+2025-05-28 19:41:41,727 - INFO - Completed scraping for Netherlands: 10 articles
+2025-05-28 19:41:41,727 - INFO - Fetching RSS feed: https://mexiconewsdaily.com/feed/
+2025-05-28 19:41:42,918 - INFO - Extracted 100 articles from RT News
+2025-05-28 19:41:42,918 - INFO - Fetching RSS feed: https://tass.com/rss/v2.xml
+2025-05-28 19:41:45,509 - INFO - Extracted 10 articles from Mexico News Daily
+2025-05-28 19:41:45,509 - INFO - Fetching RSS feed: https://www.eluniversal.com.mx/rss.xml
+2025-05-28 19:41:47,848 - INFO - Extracted 10 articles from Rio Times
+2025-05-28 19:41:47,848 - INFO - Total articles scraped for Brazil: 10
+2025-05-28 19:41:47,848 - INFO - Starting to scrape 2 feeds for Argentina
+2025-05-28 19:41:47,848 - INFO - Completed scraping for Brazil: 10 articles
+2025-05-28 19:41:47,848 - INFO - Fetching RSS feed: https://www.buenosairesherald.com/rss.xml
+2025-05-28 19:41:48,561 - ERROR - Network error fetching https://www.eluniversal.com.mx/rss.xml: 404 Client Error: Not Found for url: https://www.eluniversal.com.mx/rss.xml
+2025-05-28 19:41:48,561 - INFO - Total articles scraped for Mexico: 10
+2025-05-28 19:41:48,561 - INFO - Completed scraping for Mexico: 10 articles
+2025-05-28 19:41:49,067 - INFO - Extracted 100 articles from TASS
+2025-05-28 19:41:49,067 - INFO - Total articles scraped for Russia: 200
+2025-05-28 19:41:49,068 - INFO - Completed scraping for Russia: 200 articles
+2025-05-28 19:41:53,869 - ERROR - Network error fetching https://www.buenosairesherald.com/rss.xml: 404 Client Error: Not Found for url: https://buenosairesherald.com/rss.xml
+2025-05-28 19:41:53,869 - INFO - Fetching RSS feed: https://en.mercopress.com/rss/news
+2025-05-28 19:41:56,497 - ERROR - Network error fetching https://en.mercopress.com/rss/news: 404 Client Error: Not Found for url: https://en.mercopress.com/rss/news
+2025-05-28 19:41:56,498 - INFO - Total articles scraped for Argentina: 0
+2025-05-28 19:41:56,498 - INFO - Completed scraping for Argentina: 0 articles
+2025-05-28 19:41:56,498 - INFO - Scraping completed. Total articles: 1235
+2025-05-28 19:41:56,538 - INFO - Saved 1234 new articles to database
+2025-05-28 19:41:56,557 - INFO - Exported 1235 articles to global_news.csv
+2025-05-28 19:41:56,577 - INFO - Exported 1235 articles to global_news.json
